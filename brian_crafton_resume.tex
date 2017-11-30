@@ -49,6 +49,33 @@
   }
 }
 
+\newcommand{\resumeSubheadingGTECH}[7]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+      \textit{\small#5} & \textit{\small #6} \\
+      {#7 \vspace{-2pt}}
+    \end{tabular*}\vspace{-5pt}
+}
+
+%\newcommand{\resumeSubheadingNEU}[5]{
+%    \begin{tabular}{{0.7\textwidth}{0.3\textwidth}}
+%      \textbf{#1} & #2 \\
+%      \textit{\small#3} & \textit{\small #4} \\
+%      {\small#5} & {\small#5} \\
+%    \end{tabular}
+%}
+
+\newcommand{\resumeSubheadingNEU}[5]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+      {\small#5}
+    \end{tabular*}\vspace{-5pt}
+}
+
 \newcommand{\resumeSubheading}[4]{
   \vspace{-1pt}\item
     \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
@@ -83,19 +110,16 @@
 \section{Education}
   \resumeSubHeadingListStart
 
-    \resumeSubheading
+    \resumeSubheadingGTECH
       {Georgia Institute of Technology}{Atlanta, GA}
-      {Doctorate of Philosophy;  GPA: 4.00}{Aug 2017 -- }
+      {Ph,D. Computer Engineering}{May 2022 }
+      {MS. Computer Engineering}{May 2019 }
+      {Advanced Computer Architecture, Computer Automated VLSI Design }
 
-
-      { Course Work: Advanced Computer Architecture, Computer Automated VLSI Design }
-
-    \resumeSubheading
+    \resumeSubheadingNEU
       {Northeastern University}{Boston, MA}
       {Bachelor of Science in Computer Engineering;  GPA: 3.7}{Aug 2013 - May 2017}
-
-
-      { Course Work: Compilers, Operating Systems, Nanofabrication, VLSI, Parallel Programming, Microprocessor Based Design, Algorithms 1, 2, \& 3 }
+      {Compilers, Operating Systems, Nanofab, VLSI, Parallel Programming, Algorithms 1, 2, \& 3}
 
   \resumeSubHeadingListEnd
 
