@@ -74,20 +74,29 @@
 
 %----------HEADING-----------------
 \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
-  \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
-  \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+  \textbf{{\Large Brian Crafton}} & Email : \href{mailto:brian.crafton@gatech.edu}{brian.crafton@gatech.edu} \\
+  Mobile : +1-774-571-1340 & Github: bcrafton \\
 \end{tabular*}
 
 
 %-----------EDUCATION-----------------
 \section{Education}
   \resumeSubHeadingListStart
+
     \resumeSubheading
       {Georgia Institute of Technology}{Atlanta, GA}
-      {Doctorate of Philosophy;  GPA: 4.00}{Aug. 2017 -- }
+      {Doctorate of Philosophy;  GPA: 4.00}{Aug 2017 -- }
+
+
+      { Course Work: Advanced Computer Architecture, Computer Automated VLSI Design }
+
     \resumeSubheading
       {Northeastern University}{Boston, MA}
-      {Bachelor of Science in Computer Engineering;  GPA: 3.7}{Aug. 2013 -- May. 2017}
+      {Bachelor of Science in Computer Engineering;  GPA: 3.7}{Aug 2013 - May 2017}
+
+
+      { Course Work: Compilers, Operating Systems, Nanofabrication, Parallel Programming, Microprocessor Based Design, Algorithms 1, 2, \& 3 }
+
   \resumeSubHeadingListEnd
 
 
@@ -96,58 +105,59 @@
   \resumeSubHeadingListStart
 
     \resumeSubheading
-      {AMD}{Boxborough MA}
-      {Engineer Coop}{Oct 2016 - Present}
-      \resumeItemListStart
-        \resumeItem{Tensorflow}
-          {TensorFlow is an open source software library for numerical computation using data flow graphs; primarily used for training deep learning models.}
-        \resumeItem{Apache Beam}
-          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines, as well as a set of language-specific SDKs for constructing pipelines and runners.}
-      \resumeItemListEnd
-
-    \resumeSubheading
-      {Coursera}{Mountain View, CA}
-      {Senior Software Engineer}{Jan 2014 - Oct 2016}
-      \resumeItemListStart
-        \resumeItem{Notifications}
-          {Service for sending email, push and in-app notifications. Involved in features such as delivery time optimization, tracking, queuing and A/B testing. Built an internal app to run batch campaigns for marketing etc.}
-        \resumeItem{Nostos}
-          {Bulk data processing and injection service from Hadoop to Cassandra and provides a thin REST layer on top for serving offline computed data online.}
-        \resumeItem{Workflows}
-          {Dataduct an open source workflow framework to create and manage data pipelines leveraging reusables patterns to expedite developer productivity.}
-        \resumeItem{Data Collection}
-          {Designed the internal survey and crowd sourcing platfowm which allowed for creating various tasks for crowd sourding or embedding surveys across the Coursera platform.}
-        \resumeItem{Dev Environment}
-          {Analytics environment based on docker and AWS, standardized the python and R dependencies. Wrote the core libraries that are shared by all data scientists.}
-        \resumeItem{Data Warehousing}
-          {Setup, schema design and management of Amazon Redshift. Built an internal app for access to the data using a web interface. Dataduct integration for daily ETL injection into Redshift.}
-        \resumeItem{Recommendations}
-          {Core service for all recommendation systems at Coursesa, currently used on the homepage and throughout the content discovery process. Worked on both offline training and online serving.}
-        \resumeItem{Content Discovery}
-          {Improved content discovery by building a new onboarding experience on coursera. Using this to personalize the search and browse experience. Also worked on ranking and indexing improvements.}
-        \resumeItem{Course Dashboards}
-          {Instructor dashboards and learner surveying tools, which helped instructors run their class better by providing data on Assignments and Learner Activity.}
-      \resumeItemListEnd
-
-    \resumeSubheading
-      {Lucena Research}{Atlanta, GA}
-      {Data Scientist}{Summer 2012 and 2013}
-      \resumeItemListStart
-        \resumeItem{Portfolio Management}
-          {Created models for portfolio hedging,  portfolio optimization and price forecasting. Also creating a strategy backtesting engine used for simulating and backtesting strategies.}
-        \resumeItem{QuantDesk}
-          {Python backend for a web application used by hedge fund managers for portfolio management.}
-      \resumeItemListEnd
-
-    \resumeSubheading
       {Georgia Institute of Technology}{Atlanta, GA}
-      {Research and Teaching Assistant}{Jan 2012 - Dec 2013}
+      {Research Assistant}{Aug 2017 -}
       \resumeItemListStart
-        \resumeItem{Research Assistant - Machine Learning}
-          {Research on machine learning for portfolio hedging and replication algorithms. Modeling low-risk \& continuous-return strategies. Developed the python library QSTK.}
-        \resumeItem{Teaching Assistant - Computational Investing}
-          {The online course on Coursera, had more than 100,000 students enrolled. It was featured on the 11 Alive News and the Atlanta Journal Constitution. Involved in creating assignment, exams and conducting recitation sessions. Also taught the on-campus version of the course.}
+        \resumeItem{Compiler}
+          { Developed frontend for modeling protocols. Syntax eventually translated to an abstract syntax tree and finally turned into a finite state machine. }
+        \resumeItem{Algorithms}
+          { Implemented merging algorithms to combine two protocols to automatically generate a finite state machine for a hardware translator }
+        \resumeItem{Full Flow}
+          { Implemented a full flow to translate the high level syntax into Verilog and finally go down to netlist and layout }
       \resumeItemListEnd
+
+    \resumeSubheading
+      {AMD}{Boxborough MA}
+      {Engineer Coop}{May-Aug 2017, July-Dec 2016}
+      \resumeItemListStart
+        \resumeItem{Performance Verification}
+          {Lead performance verification. Debugged bottlenecks and proposed solutions. }
+        \resumeItem{Cache}
+          {Debugged cache bottleneck and offered tradeoffs of different models (size and eviction policy) }
+        \resumeItem{Functional Verification}
+          {Implemented tests at block level. Set register values and drive random and constant stimulus. Debugged RTL failures and proposed solutions. }
+        \resumeItem{Subblock Testbench}
+          {Implemented and owned subblock test bench. Stressed cache and compression blocks. }
+        \resumeItem{Tools}
+          {Implemented Python tools to automate verification techniques }
+
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Northeastern University}{Boston, MA}
+      {Research Assistant}{May-July 2016}
+      \resumeItemListStart
+        \resumeItem{Bench Marks}
+          {Implemented and modified OpenCL benchmarks for floating point research}
+        \resumeItem{Analysis}
+          {Ran benchmarks on different hardware platforms, collected and analyzed results}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Basis Science, Intel}{San Francisco CA}
+      {Engineer Coop}{July-Dec 2015}
+      \resumeItemListStart
+        \resumeItem{Drivers}
+          {Sensor and flash memory drivers in embedded C}
+        \resumeItem{Tools}
+          {Test and data generation for learning algorithms}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {EMC}{Franklin MA}
+      {Engineer Coop}{July-Dec 2014}
+      %\resumeItemListStart
+      %\resumeItemListEnd
 
   \resumeSubHeadingListEnd
 
@@ -155,26 +165,29 @@
 %-----------PROJECTS-----------------
 \section{Projects}
   \resumeSubHeadingListStart
-    \resumeSubItem{QuantSoftware Toolkit}
-      {Open source python library for financial data analysis and machine learning for finance.}
-    \resumeSubItem{Github Visualization}
-      {Data Visualization of Git Log data using D3 to analyze project trends over time.}
-    \resumeSubItem{Recommendation System}
-      {Music and Movie recommender systems using collaborative filtering on public datasets.}
-    \resumeSubItem{Mac Setup}
-      {Book that gives step by step instructions on setting up developer environment on Mac OS.}
+    \resumeSubItem{Compiler - Assembler - Processor}
+      {Out of order, superscalar processor with branch prediction in Verilog. Compiler, assembler, test bench, and emulator.}
+    \resumeSubItem{Memory Simulator}
+      {DRAM and cache memory simulator for the processor project}
+    \resumeSubItem{Parallel Neural Network}
+      {Parallel programming project. Written in C, MPI, OpenMP.}
+    \resumeSubItem{Wireless Speakers}
+      {Lead of senior capstone design. Synchronized wireless speakers.}
+    \resumeSubItem{Data Structures}
+      {C implementation of 15 popular data structures}
   \resumeSubHeadingListEnd
 
 %
 %--------PROGRAMMING SKILLS------------
-%\section{Programming Skills}
-%  \resumeSubHeadingListStart
-%    \item{
-%      \textbf{Languages}{: Scala, Python, Javascript, C++, SQL, Java}
-%      \hfill
-%      \textbf{Technologies}{: AWS, Play, React, Kafka, GCE}
-%    }
-%  \resumeSubHeadingListEnd
+\section{Programming Skills}
+  \resumeSubHeadingListStart
+    \resumeSubItem{Programming}
+    {C, C++, Verilog, Python}
+    \resumeSubItem{HDL}
+    {Verilog, System Verilog}
+    \resumeSubItem{Technologies}
+    {Debugger, Oscilloscope, Git, Perforce, Simulation, Synthesis, Place and Route tools}
+  \resumeSubHeadingListEnd
 
 
 %-------------------------------------------
