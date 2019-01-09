@@ -55,7 +55,7 @@
       \textbf{#1} & #2 \\
       \textit{\small#3} & \textit{\small #4} \\
       \textit{\small#5} & \textit{\small #6} \\
-      {#7 \vspace{-2pt}}
+      {\small #7 \vspace{-2pt}}
     \end{tabular*}\vspace{-5pt}
 }
 
@@ -85,6 +85,12 @@
 }
 
 \newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+\newcommand{\resumePub}[1]{
+  \item\small{
+    #1
+  }
+}
+
 
 \renewcommand{\labelitemii}{$\circ$}
 
@@ -114,7 +120,7 @@
       {Georgia Institute of Technology}{Atlanta, GA}
       {Ph,D. Computer Engineering}{May 2022 }
       {MS. Computer Engineering}{May 2019 }
-      {Advanced Computer Architecture, Computer Automated VLSI Design }
+      {Advanced Computer Architecture, CAD - Synthesis, CAD - PD, VLSI, Neuromorhpic Computing }
 
     \resumeSubheadingNEU
       {Northeastern University}{Boston, MA}
@@ -129,8 +135,22 @@
   \resumeSubHeadingListStart
 
     \resumeSubheading
-      {Georgia Institute of Technology}{Atlanta, GA}
-      {Research Assistant}{Aug 2017 -}
+      {ICSRL, Georgia Institute of Technology}{Atlanta, GA}
+      {Research Assistant}{May 2018 -}
+      \resumeItemListStart
+        \resumeItem{Emerging Device Circuits}
+          { Worked with device collaborators to create circuit simulations using FeFETs and memristors  }
+        \resumeItem{Spiking Networks}
+          { Developed models from experimental data for ferroelectric neurons and synapses implementing STDP to solve learning problems }
+        \resumeItem{Memristive Neural Network}
+          { Designed memristive neural network to solve MNIST }
+        \resumeItem{Local Learning}
+          { Using variation of feedback alignment algorithm to allow deep networks to learn locally }
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {GTCAD, Georgia Institute of Technology}{Atlanta, GA}
+      {Research Assistant}{Aug 2017 - May 2018}
       \resumeItemListStart
         \resumeItem{Compiler}
           { Developed frontend for modeling protocols. Syntax eventually translated to an abstract syntax tree and finally turned into a finite state machine }
@@ -186,6 +206,14 @@
   \resumeSubHeadingListEnd
 
 
+%-----------Publications-----------------
+\section{Publications}
+  \resumeSubHeadingListStart
+    \resumePub{Z. Wang, B. Crafton, T. Tomas-Gomez, X. Ruijuan, A. Luo, Z. Krivokapic, L. Martin, S. Datta, A. Raychowdhury, and A. Khan. Experimental demonstration of ferroelectric spiking neurons for unsupervised clustering. In ElectronDevices Meeting (IEDM), 2018 IEEE International. IEEE, 2018}
+    \resumePub{Bayati, Mahsa, Brian Crafton, Miriam Leeser, Yijia Gu, and Thomas Wahl. Identifying Volatile Numeric Expressions in OpenCL Applications.}
+      
+  \resumeSubHeadingListEnd
+
 %-----------PROJECTS-----------------
 \section{Projects}
   \resumeSubHeadingListStart
@@ -216,3 +244,5 @@
 
 %-------------------------------------------
 \end{document}
+\grid
+\grid
